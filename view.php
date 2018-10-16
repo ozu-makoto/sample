@@ -7,7 +7,7 @@
 <?php
 
   //$_POST["slack"]としてデータ参照
-  if ($_POST["slack"] != "" ) {
+  if ($_POST["slack"] != "" ) {//
     print "スラック名:";
     print $_POST["slack"];
   }
